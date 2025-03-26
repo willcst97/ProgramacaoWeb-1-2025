@@ -9,7 +9,7 @@
   <body class="container">
     <h1>Produtos</h1>
 
-    <a class="btn btn-primary" href="/produtos/create">Novo Produto</a> 
+    <a class="btn btn-primary mb-3" href="/produtos/create">Novo Produto</a> 
 
     @if (session('erro'))
         <div class="alert alert-danger">
